@@ -11,7 +11,9 @@ describe('AddTaskComponent', () => {
       declarations: [ AddTaskComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(AddTaskComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
